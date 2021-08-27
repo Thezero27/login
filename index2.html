@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thezero</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-fake.png" />
+    <style>
+        .boton1{
+            background-color: red;
+            color: black;
+            border: outset green;
+            border-radius: 10px;
+            margin: 10px;
+            font-size: 1rem;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 200px;
+              
+        }
+        .grxs{
+            background-color: rgb(224, 248, 8);
+            color: black;
+            border: outset rgb(20, 236, 252);
+            border-radius: 10px;
+            margin: 10px;
+            font-size: 1em;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 200px;
+            
+        }
+        .entrada{
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <center><div class="grxs"><div>Gracias por el login</div></div></center>
+
+    <br>
+    <center><div class="boton1"><a id="red">Misión</a></div></center>
+    <br>
+    <br>
+    <center>
+    Codigo: <a id="tr"><input class="entrada" maxlength="10" type="password" id="entrada" value="" required placeholder="escriba el codigo secreto"></a>
+    <button onclick="getValueInput()">enviar</button>
+    <button onclick="getValueReset()">Borrar</button>
+    </center>
+    <script>
+        var cod01 = "0937483448"
+        var cod02 = "8492348857"
+        var cod03 = "8576885488"
+        var cod04 = "8574834959"
+        var cod05 = "7582399922"
+        var cod06 = "5638388299"
+        var cod07 = "4775655683"
+        var cod08 = "7464373845"
+        var cod09 = "3829193933"
+        var cod10 = "8372744842"
+        var cod11 = "3848492938"
+        var cod12 = "3727484832"
+        var cod13 = "7428829948"
+        var cod14 = "4777483733"
+        var cod15 = "9382884388"
+        var cod16 = "0282883782"
+        var cod17 = "2348483990"
+        var cod18 = "8388483429"
+        var cod19 = "2480394932"
+        var cod20 = "8848499399"
+        var cod21 = "8488383737"
+        var cod22 = "3882938839"
+        var cod23 = "8474839288"
+        var cod24 = "2384839932"
+        var cod25 = "4949838844"
+        var cod26 = "8437844329"
+        var Cod27 = "7495063403"
+        var cod28 = "1248999392"
+        var Cod29 = "2738493999"
+        var Cod30 = "6544547642"
+        
+        var red = document.getElementById("red")
+        red.onclick = function () {
+            alert("Tu misión está escrito en la consola")
+            console.log("Si estas leyendo esto eres un Desarrolador, pero tengo un codigo oculto en algun lugar buscalo y lo escribes en la caja")   
+        }
+        var enviar = document.getElementById("evaluar")
+        
+        //var borrar = document.getElementById("borrar")
+        
+        const getValueInput = () =>{
+            let entrada = document.getElementById("entrada").value
+            if(entrada===Cod27){
+                alert("Lo lograste, eres todo un desarrollador")
+                alert("El codigo secreto es --> "+entrada)
+            }else{
+                alert("Te equivocaste este no es el codigo!")
+            }
+          
+        }
+
+        const getValueReset = () =>{
+            //document.getElementById("entrada").innerHTML = "";
+            $("#tr").html('<input class="entrada" maxlength="10" type="password" id="entrada" value="" required placeholder="escriba el codigo secreto">')
+        }
+        
+    </script>
+</body>
+<!-- ValidacionBootstrap -->
+
+
+<script src="script/jquery-3.5.1.min.js"></script>
+<script src="script/script.js"></script>
+</html>

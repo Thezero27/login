@@ -9,7 +9,7 @@ const getValueInput = () =>{
         //var aviso = document.getElementById("error-login")
         document.getElementById("error-login1").innerHTML = "Login correcto";
         20200
-        open("/HACKER/Hack/ANONYMOUS/Thezero/test/index2.html")
+        open("/index2.html")
     }
     if(usuario!=usrot){
         //var aviso = document.getElementById("error-login")
